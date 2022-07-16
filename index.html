@@ -1,38 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./css/app.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ecadaeca60.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/app.js"></script>
-    <title>stelioBraga</title>
+    <title>Stélio Braga</title>
 </head>
-<body class="bg-light">
+
+<body class="bg-gradient">
     <div>
         <nav class="navbar navbar-expand-lg  navbar-light bg-dark ">
-
             <div class="container-fluid">
                 <div class="justify-content-center">
-                    <a class="navbar-brand text-uppercase text-success ms-xxl-5 fs-3" href="#"> <strong> Stelio
+                    <a class="navbar-brand text-uppercase text-success ms-xxl-5 fs-3" href="#"> <strong> Stelio Braga
                         </strong></a>
 
                 </div>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="nav justify-content-center">
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link active text-light" aria-current="page" >Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" onclick=goToProject() class="nav-link  text-light" >Protifolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" onclick=goToContact() class="nav-link  text-light" >Contact</a>
+                            <a href="#contact" class="nav-link  text-light">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -57,8 +53,7 @@
                                 class="fa fa-1x fa-instagram text-success"></i></a>
                         <a href="https://www.facebook.com/stelio_bragaa/"><i
                                 class="fa fa-1x fa-facebook text-success"></i></a>
-                        <a href="https://twitter.com/steliobraga/"> <i
-                                class="fa fa-1x fa-twitter text-success"></i></a>
+                        <a href="https://twitter.com/steliobraga/"> <i class="fa fa-1x fa-twitter text-success"></i></a>
                     </div>
                 </div>
                 <div class=" col-7  col-sm-8 ">
@@ -73,25 +68,33 @@
         </div>
     </div>
     <!-- container card  skill and experience -->
-    <div class="container">
-        <h2 class="text-success text-center fw-bold mt-4 text-uppercase text-decoration-underline"
-            style="font-family: 'Playfair Display', serif;">
+    <div class="container bg-gradient">
+        <h2 class="text-success text-center fw-bold mt-4 text-uppercase ""
+            style=" font-family: 'Playfair Display' , serif;">
             Skills & Experience </h2>
         <div class="container-sm p-2 ms-1 flex-md-wrap justify-content-center mt-2">
             <div class="row row-cols-2 row-cols-md-6 row-cols-sm-2">
                 <div class="col ">
                     <div class="card m-2 ms-1 bg-white text-center rounded" style="width: 9rem;">
                         <div class="card-body">
+                            <i class="fab fa-3x fa-java text-danger"></i>
+                            <p class="card-text font-weight-bold">Java</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card m-2 ms-1 bg-white text-center rounded" style="width: 9rem;">
+                        <div class="card-body">
                             <i class="fa fa-3x fa-android text-success"></i>
-                            <p class="card-text font-weight-bold">Android-Java</p>
+                            <p class="card-text font-weight-bold">Android</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card m-2 ms-1 bg-white text-center rounded" style="width: 9rem;">
                         <div class="card-body  text-secondary">
-                            <div class="fas fa-3x fa-mobile-alt "></div>
-                            <p class="card-text font-weight-bold">FLutter</p>
+                            <div class="fa fa-3x fa-mobile-alt "></div>
+                            <p class="card-text font-weight-bold">Flutter</p>
                         </div>
                     </div>
                 </div>
@@ -107,7 +110,7 @@
                     <div class="card m-2 ms-1 bg-white text-center rounded" style="width: 9rem;">
                         <div class="card-body text-danger">
                             <div class="fab fa-3x fa-bootstrap"></div>
-                            <p class="card-text tfont-weight-bold">BootStrap</p>
+                            <p class="card-text tfont-weight-bold">Bootstrap</p>
                         </div>
                     </div>
                 </div>
@@ -122,7 +125,7 @@
                 <div class="col">
                     <div class="card m-2 ms-1 bg-white text-center rounded" style="width: 9rem;">
                         <div class="card-body">
-                            <div class="fa fa-3x fa-car"></div>
+                            <div class="fab fa-3x fa-js"></div>
                             <p class="card-text tfont-weight-bold">JQuery</p>
                         </div>
                     </div>
@@ -131,7 +134,7 @@
                     <div class="card m-2 ms-1 bg-white text-center rounded" style="width: 9rem;">
                         <div class="card-body">
                             <div class="fab fa-3x fa-html5 text-primary"></div>
-                            <p class="card-text font-weight-bold">html5</p>
+                            <p class="card-text font-weight-bold">HTML5</p>
                         </div>
                     </div>
                 </div>
@@ -139,7 +142,7 @@
                     <div class="card m-2 ms-1 bg-white text-center rounded" style="width: 9rem;">
                         <div class="card-body">
                             <div class="fab fa-3x fa-css3-alt text-warning"></div>
-                            <p class="card-text font-weight-bold">css</p>
+                            <p class="card-text font-weight-bold">CSS</p>
                         </div>
                     </div>
                 </div>
@@ -154,8 +157,8 @@
                 <div class="col ">
                     <div class="card m-2 ms-1 bg-white text-center rounded" style="width: 9rem;">
                         <div class="card-body">
-                            <i class="fa fa-3x fa-android text-success"></i>
-                            <p class="card-text font-weight-bold">Android-Java</p>
+                            <i class="fab fa-3x fa-react text-primary"></i>
+                            <p class="card-text font-weight-bold">React</p>
                         </div>
                     </div>
                 </div>
@@ -163,7 +166,7 @@
                     <div class="card m-2 ms-1 bg-white text-center rounded" style="width: 9rem;">
                         <div class="card-body">
                             <div class="fas fa-3x fa-database"></div>
-                            <p class="card-text font-weight-bold">Myql</p>
+                            <p class="card-text font-weight-bold">MySQL</p>
                         </div>
                     </div>
                 </div>
@@ -171,7 +174,7 @@
                     <div class="card m-2 ms-1 bg-white text-center rounded" style="width: 9rem;">
                         <div class="card-body ">
                             <div class="fa fa-3x fa-database text-warning "></div>
-                            <p class="card-text font-weight-bold">Fire</p>
+                            <p class="card-text font-weight-bold">Firebase</p>
                         </div>
                     </div>
                 </div>
@@ -187,14 +190,14 @@
                     <div class="card m-2 ms-1 bg-white text-center rounded" style="width: 9rem;">
                         <div class="card-body">
                             <div class="fa fa-3x fa-github-square text-primary"></div>
-                            <p class="card-text font-weight-bold">Github</p>
+                            <p class="card-text font-weight-bold">GitHub</p>
                         </div>
                     </div>
                 </div>
             </div>
             <!--My Project  and colaboration work-->
             <div id="project" class="">
-                <h2 class="text-success text-center fw-bold m-5 text-uppercase text-decoration-underline"
+                <h2 class="text-success text-center fw-bold m-5 text-uppercase"
                     style="font-family: 'Playfair Display', serif;">
                     Projects</h2>
                 <div class="text-center">
@@ -220,9 +223,9 @@
                         <div class="col-13 col-md">
                             <h5>Contacts</h5>
                             <ul class="list-unstyled text-small">
-                                <li>Email:<a class="link-secondary"
+                                <li>Email: <a class="link-secondary"
                                         href="mailto:steliobraga13@gmail.com">steliobraga13@gmail.com</a></li>
-                                <li>Instgram:<a class="link-secondary"
+                                <li>Instagram: <a class="link-secondary"
                                         href="https://www.instagram.com/stelio_bragaa/">@stelio_bragaa</a></li>
                             </ul>
                         </div>
@@ -251,7 +254,7 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-6">
-                            <img src="./assets/busgo.svg" class="img-thumbnail"  alt="" style="width: 9rem;">
+                            <img src="./assets/busgo.svg" class="img-thumbnail" alt="" style="width: 9rem;">
                         </div>
                         <div class="col-5">
                             <h5 class="title">BusGo</h5>
